@@ -31,7 +31,7 @@ class _HomeScreenState extends State<HomeScreen> {
         return Scaffold(
           appBar: AppBar(
             backgroundColor: Color(settingColor),
-            title: Text('GlobApp'),
+            title: Text('Note App'),
           ),
           drawer: Drawer(
             child: ListView(
@@ -126,7 +126,7 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
           ),
           body: Container(
-            decoration: BoxDecoration(
+          
                 image: DecorationImage(
                     image: AssetImage('assets/travel.jpg'), fit: BoxFit.cover)),
           ),
