@@ -1,1 +1,1 @@
- "flutter sqlflite exersise" 
+" flutter pub add " 
